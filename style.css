@@ -1,0 +1,114 @@
+.set {
+	position: relative;
+	left : 38%;
+	top : 10%;
+	border : solid 1px #000;
+	border-radius : 5px;
+	text-align : center;
+	height : 30%;
+	width : 30%;
+	text-decoration : none;
+	color : #000;
+	padding : 5px 5px;
+	
+}
+.set2{
+	position: relative;
+	left : 33%;
+	top : 25px;
+	margin : 5px;
+	padding : 10px 50px;
+	border : solid 1px #000;
+	border-radius : 5px;
+	text-align : center;
+	height : 30%;
+	width : 30%;
+	text-decoration : none;
+	color : #000;
+	
+}
+
+
+.abc {
+	top : 30%;
+	left : 25%;
+	height : 100px;
+	width : 400px;
+}
+h1:hover{
+	color : red;
+}
+a:hover {
+    background-color: yellow;
+}
+p:hover{
+	background-color: orange;
+	padding: 0.1cm 1cm;
+	border-radius : 10px;
+}
+
+.images>div {
+	display : none;
+	height : 250px;
+	width : 400px;
+	top : 25%;
+	text-align : center;
+	font-size : 30;
+	color : red;
+}
+.images div:target{display:block;}
+
+.images {
+	top : 25%;
+	left : 35%;
+}
+
+#secodary>div{display : none;}
+#secodary :target{display:block;}
+div#secodary {
+    margin-top: 40px;
+}
+
+div {position: relative;}
+
+.buttons{
+	left : 32%;
+	height : 75px;
+	width : 500px;
+	border-radius : 5px;
+	text-align : center;
+	font-size : 30;
+
+}
+.circle{
+	position : relative;
+	left : 50px;
+	width : 250px;
+	height: 250px;
+	background-color : red;
+	border-radius : 100%;
+}
+
+.rectangle{
+	position : relative;
+	width : 350px;
+	height: 200px;
+	background-color : cyan;
+}
+
+.abc-button{
+	background-color : lightblue;
+	padding: 0.1cm 1cm;
+	border-radius : 10px;
+	text-decoration : none;
+	color : #000;
+	
+}
+.quiz-button{
+	background-color : lightgreen;
+	padding: 0.1cm 1cm;
+	border-radius : 10px;
+	text-decoration : none;
+	color : #000;
+}
+
